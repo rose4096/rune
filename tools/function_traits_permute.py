@@ -7,7 +7,7 @@ Owned = lambda var: (var, "", ["FromValue"], "from_value")
 Mut = lambda var: (f"Mut<{var}>", "&mut", ["?Sized", "UnsafeToMut"], "unsafe_to_mut")
 Ref = lambda var: (f"Ref<{var}>", "&", ["?Sized", "UnsafeToRef"], "unsafe_to_ref")
 
-vars = ['A', 'B', 'C', 'D', 'E']
+vars = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
 
 this = pathlib.Path(__file__)
 
